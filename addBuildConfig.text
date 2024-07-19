@@ -1,0 +1,9 @@
+// "build": {
+//   "directories": {
+//     "buildResources": "public/icons"
+//   },
+//   "win": {
+//     "icon": "public/icons/icon.ico",
+//     "target": "nsis"
+//   }
+// }

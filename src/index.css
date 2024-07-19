@@ -1,0 +1,155 @@
+@media only screen and (min-width: 2001px) {
+  :root {
+    --r01: 0.2rem;
+    --r05: 1rem;
+    --r08: 1.6rem;
+    --r1: 2rem;
+    --r101: 2.2rem;
+    --r102: 2.4rem;
+    --r103: 2.6rem;
+    --r104: 2.8rem;
+    --r105: 3rem;
+    --r106: 3.2rem;
+    --r2: 4rem;
+    --r205: 5rem;
+    --r3: 6rem;
+    --r4: 8rem;
+    --r5: 10rem;
+  }
+}
+@media only screen and (max-width: 2000px) {
+  :root {
+    --r01: 0.15rem;
+    --r05: 0.75rem;
+    --r08: 1.2rem;
+    --r1: 1.5rem;
+    --r101: 1.6rem;
+    --r102: 1.7rem;
+    --r103: 1.9rem;
+    --r104: 2rem;
+    --r105: 2.2rem;
+    --r106: 2.3rem;
+    --r2: 3rem;
+    --r205: 3.75rem;
+    --r3: 4.5rem;
+    --r4: 6rem;
+    --r5: 7.5rem;
+  }
+}
+@media only screen and (max-width: 1670px) {
+  :root {
+    --r01: 0.1rem;
+    --r05: 0.5rem;
+    --r08: 0.8rem;
+    --r1: 1rem;
+    --r101: 1.1rem;
+    --r102: 1.2rem;
+    --r103: 1.3rem;
+    --r104: 1.4rem;
+    --r105: 1.5rem;
+    --r106: 1.6rem;
+    --r2: 2rem;
+    --r205: 2.5rem;
+    --r3: 3rem;
+    --r4: 4rem;
+    --r5: 5rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  :root {
+    --r01: 0.075rem;
+    --r05: 0.35rem;
+    --r08: 0.56rem;
+    --r1: 0.7rem;
+    --r101: 0.8rem;
+    --r102: 0.9rem;
+    --r103: 1rem;
+    --r104: 1.2rem;
+    --r105: 1.3rem;
+    --r106: 1.4rem;
+    --r2: 1.4rem;
+    --r205: 1.75rem;
+    --r3: 2.1rem;
+    --r4: 2.8rem;
+    --r5: 3.5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  :root {
+    --r01: 0.075rem;
+    --r05: 0.35rem;
+    --r08: 0.56rem;
+    --r1: 0.7rem;
+    --r101: 0.8rem;
+    --r102: 0.9rem;
+    --r103: 1rem;
+    --r104: 1.2rem;
+    --r105: 1.3rem;
+    --r106: 1.4rem;
+    --r2: 1.4rem;
+    --r205: 1.75rem;
+    --r3: 2.1rem;
+    --r4: 2.8rem;
+    --r5: 3.5rem;
+  }
+}
+@media only screen and (max-width: 530px) {
+  :root {
+    --r01: 0.05rem;
+    --r05: 0.25rem;
+    --r08: 0.4rem;
+    --r1: 0.5rem;
+    --r101: 0.8rem;
+    --r102: 0.9rem;
+    --r103: 1rem;
+    --r104: 1.2rem;
+    --r105: 1.3rem;
+    --r106: 1.4rem;
+    --r2: 1.4rem;
+    --r205: 1.75rem;
+    --r3: 1.5rem;
+    --r4: 2rem;
+    --r5: 2.5rem;
+  }
+}
+@media only screen and (max-width: 395px) {
+  :root {
+    --r01: 0.04rem;
+    --r05: 0.2rem;
+    --r08: 0.3rem;
+    --r1: 0.4rem;
+    --r101: 0.5rem;
+    --r102: 0.8rem;
+    --r103: 0.9rem;
+    --r104: 1.1rem;
+    --r105: 1.2rem;
+    --r106: 1.3rem;
+    --r2: 1rem;
+    --r205: 1.25rem;
+    --r3: 1.2rem;
+    --r4: 1.6rem;
+    --r5: 2rem;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: whitesmoke;
+}
+.dbicon {
+  width: 10rem;
+  height: 10rem;
+  background-color: #1976d2;
+  color: white;
+  border-radius: 8%;
+}
+h1 {
+  font-size: var(--r5);
+}
