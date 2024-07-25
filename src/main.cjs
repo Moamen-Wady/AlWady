@@ -244,47 +244,9 @@ ipcMain.on("getItems", async (e) => {
     });
 });
 ipcMain.on("addItem", async (e, selections) => {
-  var xs = [
-    { itemName: "iphoneb", cprice: "200", fprice: "150", count: 10 },
-    { itemName: "iphoneh", cprice: "200", fprice: "150", count: 10 },
-    { itemName: "iphonel", cprice: "200", fprice: "150", count: 10 },
-    { itemName: "iphonem", cprice: "200", fprice: "150", count: 10 },
-    { itemName: "iphonen", cprice: "200", fprice: "150", count: 10 },
-    { itemName: "iphoneo", cprice: "200", fprice: "150", count: 10 },
-    { itemName: "computer", cprice: "200", fprice: "150", count: 14 },
-    { itemName: "computera", cprice: "200", fprice: "150", count: 10 },
-    { itemName: "computerd", cprice: "200", fprice: "150", count: 10 },
-    { itemName: "computere", cprice: "200", fprice: "150", count: 10 },
-    { itemName: "computerf", cprice: "200", fprice: "150", count: 10 },
-    { itemName: "computerh", cprice: "200", fprice: "150", count: 10 },
-    { itemName: "computeri", cprice: "200", fprice: "150", count: 10 },
-    { itemName: "computerj", cprice: "200", fprice: "150", count: 10 },
-    { itemName: "computerl", cprice: "200", fprice: "150", count: 10 },
-    { itemName: "computerm", cprice: "200", fprice: "150", count: 10 },
-    { itemName: "computern", cprice: "200", fprice: "150", count: 10 },
-    { itemName: "computero", cprice: "200", fprice: "150", count: 7 },
-    { itemName: "computerg", cprice: "200", fprice: "150", count: 9 },
-    { itemName: "computerk", cprice: "200", fprice: "150", count: 9 },
-    { itemName: "mokkk", cprice: "250", fprice: "212", count: 13 },
-    { itemName: "mokk", cprice: "250", fprice: "212", count: 19 },
-    { itemName: "komp", cprice: "400", fprice: "252", count: 47 },
-    { itemName: "oppk", cprice: "400", fprice: "300", count: 55 },
-    { itemName: "iphonec", cprice: "200", fprice: "150", count: 6 },
-    { itemName: "iphonek", cprice: "200", fprice: "150", count: 7 },
-    { itemName: "iphonef", cprice: "200", fprice: "150", count: 7 },
-    { itemName: "iphoneg", cprice: "200", fprice: "150", count: 9 },
-    { itemName: "iphonej", cprice: "200", fprice: "150", count: 9 },
-    { itemName: "iphonei", cprice: "200", fprice: "150", count: 9 },
-    { itemName: "iphonee", cprice: "200", fprice: "150", count: 9 },
-    { itemName: "iphonea", cprice: "200", fprice: "150", count: 9 },
-    { itemName: "iphone", cprice: "200", fprice: "150", count: 13 },
-    { itemName: "iphoned", cprice: "200", fprice: "150", count: 9 },
-    { itemName: "computerb", cprice: "200", fprice: "150", count: 4 },
-    { itemName: "computerc", cprice: "200", fprice: "150", count: 0 },
-  ];
   await api
     .post("/storage/add", {
-      list: xs,
+      list: selections,
     })
     .then((res) => {
       const data = res.data;
